@@ -1,0 +1,31 @@
+name: yeshub
+description: A Social Media Platform For Non-Profit Organizations.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  provider: ^5.0.0
+  google_fonts: ^2.0.0
+  get_it: ^6.1.1
+  table_calendar: ^3.0.0
+  dotted_decoration: 
+  expandable: ^5.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
